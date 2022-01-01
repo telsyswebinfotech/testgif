@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="description" content="">
+<meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+<meta name="generator" content="Hugo 0.88.1">
+<title>Telsys Web Infotech</title>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/bootstrap-datepicker.css">
+<link rel="stylesheet" href="css/font-awesome.min.css">
+</head>
+<body class="bg-light">
+<div class="container pt-5">
+	<div class="row">
+		<div class="col-sm-12">
+			<div class="bg-white shadow-sm border p-4">
+				<div class="row">
+					<div class="col-md-3">
+						<label>Sales and margin statistic</label>
+					</div>
+					<div class="col-md-6">
+						<div class="row">
+							<div class="col-md-6">
+								<label>From</label>
+								<div class="input-group">
+									<div class="input-group-prepend">
+									  <span class="input-group-text"><i class="fa fa-calendar"></i></span>
+									</div>
+									<input type="text" class="form-control inputDate" placeholder="DD/MM/YYYY">
+								</div>
+							</div>
+							<div class="col-md-6">
+								<label>To</label>
+								<div class="input-group">
+									<div class="input-group-prepend">
+									  <span class="input-group-text"><i class="fa fa-calendar"></i></span>
+									</div>
+									<input type="text" class="form-control inputDate" placeholder="DD/MM/YYYY">
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div class="form-group text-right mt-4">
+							<button type="button" class="btn btn-primary mr-3">Show</button>
+							<a href="#"><u>Graph</u></a>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-12">
+						<div class="table-responsive mt-4">
+							<table class="table border-0">
+								<thead>
+									<tr>
+									  <th>Product Group</th>
+									  <th>Units</th>
+									  <th>Sales</th>
+									  <th>Margin</th>
+									  <th>Margin%</th>
+									</tr>
+								  </thead>
+							</table>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/bootstrap-datepicker.js"></script>
+<script>
+$('.inputDate').datepicker({
+});
+</script>
+</body>
+</html>
